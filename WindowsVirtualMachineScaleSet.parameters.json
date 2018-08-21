@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmssName": {
+      "value": "kulbirdevtestvm"
+    },
+    "instanceCount": {
+      "value": 2
+    },
+    "adminUsername": {
+      "value": "kulbirs"
+    },
+    "OperatingSystem": {
+      "value": "WindowsServer"
+    },
+    "ImagePublisher": {
+      "value": "MicrosoftWindowsServer"
+    },
+    "OSVersion": {
+      "value": "2012-R2-Datacenter"
+    }
+  }
+}
